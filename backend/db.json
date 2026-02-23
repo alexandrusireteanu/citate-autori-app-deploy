@@ -1,0 +1,106 @@
+{
+  "quotes": [
+    {
+      "id": "1",
+      "author": "Albert Einstein",
+      "quote": "Life is like riding a bicycle.",
+      "category": "motivation"
+    },
+    {
+      "id": "3",
+      "author": "Oscar Wilde",
+      "quote": "Always forgive your enemies; nothing annoys them so muchaa.",
+      "category": "wisdom"
+    },
+    {
+      "id": "4",
+      "author": "Frank Zappa",
+      "quote": "So many books, so little time.",
+      "category": "wisdom"
+    },
+    {
+      "id": "5",
+      "author": "Albert Einstein",
+      "quote": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+      "category": "motivation"
+    },
+    {
+      "id": "7",
+      "author": "Marcus Tullius Cicero",
+      "quote": "A room without books is like a body without a soul.",
+      "category": "wisdom"
+    },
+    {
+      "id": "8",
+      "author": "Mae West",
+      "quote": "You only live once, but if you do it right, once is enough.",
+      "category": "motivation"
+    },
+    {
+      "id": "9",
+      "author": "Mark Twain",
+      "quote": "If you tell the truth, you don't have to remember anything",
+      "category": "wisdom"
+    },
+    {
+      "id": "10",
+      "author": "Andre Gide",
+      "quote": "It is better to be hated for what you are than to be loved for what you are not.",
+      "category": "motivation"
+    },
+    {
+      "id": "11",
+      "author": "Mark Twain",
+      "quote": "If you tell the truth, you don't have to remember anything",
+      "category": "wisdom"
+    },
+    {
+      "id": "12",
+      "author": "Mark Twain",
+      "quote": "If you tell the truth, you don't have to remember anything",
+      "category": "humor"
+    },
+    {
+      "id": "13",
+      "quote": "And, when you want something, all the universe conspires in helping you to achieve it.",
+      "author": "Paulo Coelho",
+      "category": "humor"
+    },
+    {
+      "id": "15",
+      "quote": "If you tell the truth, you don't have to remember anything",
+      "author": "Mark Twain",
+      "category": "humor"
+    },
+    {
+      "id": "23",
+      "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "author": "Mahatma Gandhi",
+      "category": "wisdom"
+    },
+    {
+      "id": "24",
+      "quote": "Spread love everywhere you go. Let no one ever come without leaving happier.",
+      "author": "Mother Teresa",
+      "category": "humor"
+    },
+    {
+      "id": "25",
+      "quote": "You’ve got to be in it to win it.",
+      "author": "Tony Robbins",
+      "category": "humor"
+    },
+    {
+      "id": "26",
+      "quote": "Find out who you are and do it on purpose.",
+      "author": "Dolly Parton",
+      "category": "humor"
+    },
+    {
+      "id": "27",
+      "quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams",
+      "author": "Dr. Seuss",
+      "category": "wisdom"
+    }
+  ]
+}
