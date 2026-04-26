@@ -33,7 +33,7 @@ export default function QuoteCard({ quote, onEdit, onDelete }) {
 
   // ── Date calculate ───────────────────────────────────────────
   const imgSrc = quote.imageUrl
-    ? `http://localhost:5000${quote.imageUrl}`
+    ? `${import.meta.env.VITE_API_URL}${quote.imageUrl}`
     : null;
 
   const initials = quote.author

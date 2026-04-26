@@ -337,7 +337,7 @@ export default function ManagePage() {
                 <div className="mt-3 flex items-center gap-3 p-3 bg-gray-50
                     rounded-lg border border-gray-100">
                   <img
-                    src={`http://localhost:5000${imageUrl}`}
+                    src={`${import.meta.env.VITE_API_URL}${imageUrl}`} 
                     alt={formData.author}
                     className="w-16 h-16 rounded-full object-cover border-2 border-indigo-200"
                     // Fallback dacă imaginea nu se încarcă
