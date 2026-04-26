@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js",
+    "start": "concurrently \"json-server --watch db.json --port 3000\" \"node server.js\"",
+    "dev": "concurrently \"json-server --watch db.json --port 3000\" \"nodemon server.js\"",
     "json-server": "json-server --watch db.json --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,13 +17,20 @@
     "nodemon": "^3.1.9"
   },
   "dependencies": {
+    "concurrently": "^9.2.1",
     "cors": "^2.8.5",
+    "dotenv": "^17.4.0",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
     "http-proxy-middleware": "^3.0.3",
     "joi": "^17.13.3",
+    "openai": "^6.33.0",
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
+
